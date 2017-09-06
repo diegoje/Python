@@ -1,0 +1,2 @@
+Subprocesses:
+    used to communicate from the script to the script and get its output
