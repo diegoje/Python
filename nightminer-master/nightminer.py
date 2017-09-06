@@ -444,6 +444,10 @@ class Job(object):
        equal to the number of processes.
     '''
 
+# bababababaa
+
+        #another comment
+
         t0 = time.time()
 
         # @TODO: test for extranounce != 0... Do I reverse it or not?

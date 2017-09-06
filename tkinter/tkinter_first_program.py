@@ -36,6 +36,8 @@ class Window(Frame):
     def client_exit(self):
         exit()
 
+#a comment
+
     def show_image(self):
         load = Image.open("image.png")
         render = ImageTk.PhotoImage(load)
