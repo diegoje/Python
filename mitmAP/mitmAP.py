@@ -38,6 +38,8 @@ elif first_question == "2":
     print("[2]")
 else:
     print("[3]")
+# @ TODO: Connect new intro to rest of program
+
 
 
 def _run_cmd_write(cmd_args, s):
