@@ -450,7 +450,7 @@ class Job(object):
 
         t0 = time.time()
 
-        # @TODO: test for extranounce != 0... Do I reverse it or not?
+
         for extranounce2 in xrange(0, 0x7fffffff):
 
             # Must be unique for any given job id, according to http://mining.bitcoin.cz/stratum-mining/ but never seems enforced?

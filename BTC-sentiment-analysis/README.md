@@ -4,12 +4,10 @@ This script checks comments related to bitcoin from Reddit and applies ML to per
 
 ### 1. Continuously scrape revelant data from Reddit
 
+##### Tools that can be used:
+* [Scrapy](www.scrapy.org)
 
 ### 2. Sentiment analysis via Google Cloud
 
 
 ### 3. Display results on a webpage
-
-Link: [babalink](www.baba.com)
-
-
