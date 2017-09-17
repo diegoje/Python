@@ -4,7 +4,6 @@ import os
 import time
 import subprocess
 
-# @TODO: Change intro logo
 # @TODO: Automate script
 
 print("dP                dP                 .d888888   888888ba\n"+
@@ -16,16 +15,30 @@ print("dP                dP                 .d888888   888888ba\n"+
       "                                         by Diego Jenzer\n")
 
 
-print("           _ _              ___  ______ \n" +
-      "          (_) |            / _ \ | ___ \\\n" +
-      " _ __ ___  _| |_ _ __ ___ / /_\ \| |_/ /\n" +
-      "| '_ ` _ \| | __| '_ ` _ \|  _  ||  __/ \n" +
-      "| | | | | | | |_| | | | | | | | || |    \n" +
-      "|_| |_| |_|_|\__|_| |_| |_\_| |_/\_| 2.2\n" +
-      "             by David Schutz (@xdavidhu)\n")
-
 sudo = "/usr/bin/sudo"
 tee = "/usr/bin/tee"
+
+print("[?] What do you want to do?\n"+
+      "    1. Setup new AP.\n"+
+      "    2. Run AP.\n"+
+      "    3. See stats.\n")
+
+while True:
+    first_question = input("Your selection: ")
+
+    if first_question == "1" or first_question == "2" or first_question == "3":
+        break
+    else:
+        print("[!] Please select an option.")
+
+
+if first_question == "1":
+    print("[1]")
+elif first_question == "2":
+    print("[2]")
+else:
+    print("[3]")
+
 
 def _run_cmd_write(cmd_args, s):
     # write a file using sudo
