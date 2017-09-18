@@ -7,8 +7,8 @@ print("dP                dP                 .d888888   888888ba\n"+
       "                                         by Diego Jenzer\n\n")
 
 print("[?] What do you want to do?\n"+
-      "    1. Start new AP.\n"+
-      "    2. Stop AP.\n"+
+      "    1. Setup new AP.\n"+
+      "    2. Run AP.\n"+
       "    3. See stats.\n")
 
 while True:
