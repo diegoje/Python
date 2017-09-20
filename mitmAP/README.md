@@ -1,9 +1,10 @@
-               _ _              ___  ______
-              (_) |            / _ \ | ___ \
-     _ __ ___  _| |_ _ __ ___ / /_\ \| |_/ /
-    | '_ ` _ \| | __| '_ ` _ \|  _  ||  __/
-    | | | | | | | |_| | | | | | | | || |    
-    |_| |_| |_|_|\__|_| |_| |_\_| |_/\_| 2.2
+      dP                dP                 .d888888   888888ba
+      88                88                d8'    88   88    `8b
+      88d888b. .d8888b. 88d888b. .d8888b. 88aaaaa88a a88aaaa8P'
+      88'  `88 88'  `88 88'  `88 88'  `88 88     88   88
+      88.  .88 88.  .88 88.  .88 88.  .88 88     88   88
+      88Y8888' `88888P8 88Y8888' `88888P8 88     88   dP
+                                               by Diego Jenzer
 
 <h3> A python program to create a fake AP and sniff data.</h3>
 
@@ -27,8 +28,6 @@
   A wireless card and an ethernet adapter / 2 wireless card<br>
   Python3 (mitmAP will install the dependenices, you don't have to do it)
 
-# downloading:
-  <h3>"git clone https://github.com/xdavidhu/mitmAP"</h3>
 
 # starting:
   * Kali Linux -> "sudo python3 mitmAP.py"<br>
