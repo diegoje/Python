@@ -1,13 +1,13 @@
 # BTC-sentiment-analysis
 
-This script checks comments related to bitcoin from Reddit and applies ML to perform a sentiment analysis on BTC.
+This script checks comments related to bitcoin from multiple sources and applies ML to perform a sentiment analysis on BTC.
 
 ### 1. Continuously scrape revelant data from various sources
 
-##### Tools that can be used:
+##### Tools that can be used for scraping/analysis:
 * [Scrapy](www.scrapy.org)
 
-##### Data structure for text:
+##### Structure for saving data (MySQL database):
 
 | Text | Time | Long | Lat | Sentiment | Magnitude | Source | Tool | Verified |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -16,6 +16,9 @@ This script checks comments related to bitcoin from Reddit and applies ML to per
 
 ### 2. Sentiment analysis via Google Cloud
 
-Perform analysis on MySQL database if verified == False
+Continuously perform analysis on MySQL database `if verified == False`
 
 ### 3. Display results on a webpage
+
+* Charts using [this tool](www.highcharts.com)
+* Interactive 3D globe using [this tool](https://experiments.withgoogle.com/chrome/globe)
